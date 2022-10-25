@@ -1,0 +1,48 @@
+:root {
+  --color-primary: 253, 55, 126;
+  --color-primary-2: 227, 73, 129;
+  --color-secondary: 3, 184, 152;
+
+  --grey-4: 33, 37, 41;
+  --grey-3: 134, 142, 150;
+  --grey-2: 233, 236, 239;
+  --grey-1: 248, 249, 250;
+
+  --background: 255, 255, 255;
+}
+
+.title-1 {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+}
+
+.title-2 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+}
+
+.title-3 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+}
+
+.title-4 {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+}
+
+.Headline {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Nunito", sans-serif;
+}
+
+.Body {
+  font-size: 12px;
+  font-weight: normal;
+  font-family: "Nunito", sans-serif;
+}

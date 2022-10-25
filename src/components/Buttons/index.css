@@ -1,0 +1,32 @@
+.button {
+  border: none;
+  border-radius: 8px;
+  padding: 10.5px 15px;
+}
+
+.button--delete {
+  background-color: rgba(var(--grey-2), 1);
+  padding: 7px 10px;
+  color: rgba(var(--grey-3), 1);
+}
+
+.primary {
+  background-color: rgba(var(--color-primary), 1);
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.primary:hover {
+  background-color: rgba(var(--color-primary-2), 1);
+}
+
+.grey-2 {
+  background-color: rgba(var(--grey-2), 1);
+  color: rgba(var(--grey-3), 1);
+  transition: all 0.3s;
+}
+
+.grey-2:hover {
+  background-color: rgba(var(--grey-4), 1);
+  color: #fff;
+}

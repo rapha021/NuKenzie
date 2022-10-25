@@ -1,0 +1,69 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+
+  width: 100%;
+  height: 351px;
+
+  border: 1px solid rgba(var(--grey-2));
+  border-radius: 4px;
+}
+
+form label {
+  color: rgba(var(--grey-4));
+  width: 90%;
+}
+
+.input {
+  width: 95%;
+  height: 53px;
+
+  padding-left: 16px;
+
+  background-color: rgba(var(--grey-1));
+
+  border: none;
+  border-radius: 8px;
+}
+.div--input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+
+  width: 100%;
+  max-width: 90%;
+}
+
+.input-50 {
+  width: 50%;
+}
+
+select {
+  border-radius: 0;
+}
+
+option {
+  background-color: rgba(var(--grey-1));
+}
+
+option:checked {
+  background-color: rgba(var(--grey-2));
+}
+
+option:active {
+  background-color: black;
+}
+
+form > button {
+  width: 90%;
+}
+
+@media (min-width: 768px) {
+  form {
+    width: 100%;
+  }
+}
